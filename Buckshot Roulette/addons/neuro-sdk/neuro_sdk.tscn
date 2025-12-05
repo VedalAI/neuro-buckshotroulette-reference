@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsw16ystn7jp3"]
+
+[ext_resource type="Script" path="res://addons/neuro-sdk/websocket/websocket.gd" id="1_dnmry"]
+[ext_resource type="Script" path="res://addons/neuro-sdk/actions/neuro_action_handler.gd" id="2_25l11"]
+
+[node name="Websocket" type="Node"]
+script = ExtResource("1_dnmry")
+
+[node name="ActionHandler" type="Node" parent="."]
+script = ExtResource("2_25l11")

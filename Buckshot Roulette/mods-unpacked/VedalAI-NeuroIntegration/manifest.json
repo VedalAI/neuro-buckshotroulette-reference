@@ -1,0 +1,32 @@
+{
+	"name": "NeuroIntegration",
+	"namespace": "VedalAI",
+	"version_number": "1.0.0",
+	"description": "Neuro-sama integration for Buckshot Roulette",
+	"website_url": "https://github.com/vedalai/neuro-buckshotroulette",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"authors": ["VedalAI"],
+			"tags": [],
+			"description_rich": "",
+			"optional_dependencies": [],
+			"load_before": [],
+			"incompatibilities": [],
+			"compatible_mod_loader_version": ["6.2.0"],
+			"compatible_game_version": ["2.1.0", "2.1.0.10"],
+			"config_schema": {
+				"title": "Config",
+				"description": "",
+				"type": "object",
+				"properties": {
+					"websocket_url": {
+						"title": "",
+						"type": "string",
+						"default": "ws://localhost:8000"
+					}
+				}
+			}
+		}
+	}
+}
