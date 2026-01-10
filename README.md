@@ -5,6 +5,3 @@ Check out the [Neuro SDK](https://github.com/vedalai/neuro-sdk) to see how to cr
 
 > [!Note]
 > This is just a reference repository containing the source code of the mod itself. Due to how the mod is setup, we cannot open source the real repo because it contains copyrighted game assets. Since base-game scripts are not included in this repo, patches aren't included either. This repo is meant to be used just as a reference.
-
-### Credits
-Developed by alexvoid
