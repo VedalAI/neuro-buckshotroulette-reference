@@ -22,7 +22,7 @@ const steal_item_action_description := "Steal an item from another player."
 const shoot_action_force_query := "You have picked up the shotgun. Choose someone to shoot. If you shoot yourself with a blank, you will continue your turn. Otherwise, if you shoot yourself with a live round or decide to shoot someone else, your turn will be passed. If the bullet is a live round, damage will be dealt accordingly."
 const shoot_action_description := "Shoot someone. You may decide to shoot yourself if you believe that the current shell is a blank."
 
-const skip_turn_action_force_query := "You have used the jammer. Choose a plyer to skip their next turn."
+const skip_turn_action_force_query := "You have used the jammer. Choose a player to skip their next turn."
 const skip_turn_action_description := "Choose a player to skip their next turn."
 
 const self_died_context := "You died! You lost. You have to wait for the next round to play again."
